@@ -1,5 +1,12 @@
+import { cn } from "@/lib/utils";
+import "@/styles/globals.css";
 import type { Metadata } from "next";
-import "./globals.css";
+import { Inter as FontSans } from "next/font/google";
+
+const fontSans = FontSans({
+  subsets: ["latin"],
+  variable: "--font-sans",
+});
 
 export const metadata: Metadata = {
   title: "AUS Bill Digitize",
@@ -13,7 +20,14 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body
+        className={cn(
+          "min-h-screen bg-background font-sans antialiased",
+          fontSans.variable,
+        )}
+      >
+        {children}
+      </body>
     </html>
   );
 }
