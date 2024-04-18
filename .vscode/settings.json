@@ -12,5 +12,11 @@
   "typescript.inlayHints.parameterNames.enabled": "all",
   "typescript.inlayHints.parameterTypes.enabled": true,
   "files.eol": "\n",
-  "cSpell.words": ["Ayurved", "Banousadhi", "Bhandar", "tailwindcss"]
+  "cSpell.words": [
+    "Ayurved",
+    "Banousadhi",
+    "Bhandar",
+    "clsx",
+    "tailwindcss"
+  ]
 }
