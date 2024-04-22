@@ -1,3 +1,4 @@
+import Navbar from "@/components/Navbar";
 import { cn } from "@/lib/utils";
 import "@/styles/globals.css";
 import type { Metadata } from "next";
@@ -26,7 +27,10 @@ export default function RootLayout({
           fontSans.variable,
         )}
       >
-        {children}
+        <main className="my-20 flex h-screen flex-col items-center justify-center">
+          <Navbar />
+          {children}
+        </main>
       </body>
     </html>
   );

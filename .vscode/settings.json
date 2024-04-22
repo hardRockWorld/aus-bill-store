@@ -1,5 +1,4 @@
 {
-  // IDE Config
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.tabSize": 2,
   "editor.formatOnSave": true,
@@ -17,6 +16,9 @@
     "Banousadhi",
     "Bhandar",
     "clsx",
+    "hookform",
+    "lucide",
+    "Signin",
     "tailwindcss"
   ]
 }
